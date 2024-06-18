@@ -1,0 +1,39 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <style>
+    .body {
+      fill: #FFD700;
+      stroke: #FFA500;
+      stroke-width: 3;
+    }
+    .eye {
+      fill: #000000;
+    }
+    .beak {
+      fill: #FFA500;
+      stroke: #FF8C00;
+      stroke-width: 2;
+    }
+    .wing {
+      fill: #FFD700;
+      stroke: #FFA500;
+      stroke-width: 3;
+    }
+    .background {
+      fill: #00000076;
+    }
+  </style>
+  <rect width="200" height="200" rx="30" ry="30" class="background" />
+  <!-- Body -->
+  <circle cx="100" cy="110" r="40" class="body" />
+  <!-- Head -->
+  <circle cx="100" cy="70" r="30" class="body" />
+  <!-- Eyes -->
+  <circle cx="85" cy="65" r="5" class="eye" />
+  <circle cx="115" cy="65" r="5" class="eye" />
+  <!-- Beak -->
+  <polygon points="100,75 90,85 110,85" class="beak" />
+  <polygon points="100,85 90,95 110,95" class="beak" />
+  <!-- Wings -->
+  <ellipse cx="70" cy="110" rx="20" ry="30" class="wing" transform="rotate(-30 70 110)" />
+  <ellipse cx="130" cy="110" rx="20" ry="30" class="wing" transform="rotate(30 130 110)" />
+</svg>
