@@ -51,7 +51,7 @@ const Post = () => {
             <p>{post.content}</p>
             <div>
               <img
-                src={`http://localhost:5000/uploads/1718637650628.jpg`}
+                src={`http://localhost:5000${post.media}`}
                 alt="Post media"
                 style={{ width: "100%", height: "auto" }}
               />
