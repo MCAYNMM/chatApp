@@ -87,7 +87,7 @@ const CreatePost = () => {
         />
         <button type="submit">Đăng bài</button>
         <span>
-          SEE STORY !<Link to={`/posts/:${userId}`}> STORY HERE!</Link>
+          SEE STORY !<Link to={`/posts/${userId}`}> STORY HERE!</Link>
         </span>
       </form>
     </Container>
